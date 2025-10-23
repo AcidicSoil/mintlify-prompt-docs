@@ -5,382 +5,268 @@
   "colors": { "primary": "#22c55e" },
   "navigation": {
     "groups": [
+      { "group": "Home", "pages": ["index"] },
+
       {
-        "group": "Home",
-        "pages": ["index"]
-      },
-      {
-        "group": "Temp Prompts (organized)",
+        "group": "00 · Ideation",
         "groups": [
           {
-            "group": "00 · Ideation",
-            "groups": [
-              {
-                "group": "Architecture",
-                "pages": [
-                  "temp-prompts-organized/00-ideation/architecture/adr-new.architecture",
-                  "temp-prompts-organized/00-ideation/architecture/logging-strategy.architecture",
-                  "temp-prompts-organized/00-ideation/architecture/modular-architecture.architecture",
-                  "temp-prompts-organized/00-ideation/architecture/stack-evaluation.architecture"
-                ]
-              },
-              {
-                "group": "Design",
-                "pages": [
-                  "temp-prompts-organized/00-ideation/design/action-diagram.design",
-                  "temp-prompts-organized/00-ideation/design/api-contract.design",
-                  "temp-prompts-organized/00-ideation/design/design-assets.design",
-                  "temp-prompts-organized/00-ideation/design/ui-screenshots.design"
-                ]
-              },
-              {
-                "group": "Requirements",
-                "pages": [
-                  "temp-prompts-organized/00-ideation/requirements/plan-delta.requirements",
-                  "temp-prompts-organized/00-ideation/requirements/planning-process.requirements",
-                  "temp-prompts-organized/00-ideation/requirements/prd-generator.requirements",
-                  "temp-prompts-organized/00-ideation/requirements/scope-control.requirements"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "10 · Scaffold",
-            "groups": [
-              {
-                "group": "CI setup",
-                "pages": [
-                  "temp-prompts-organized/10-scaffold/ci-setup/devops-automation.ci-setup",
-                  "temp-prompts-organized/10-scaffold/ci-setup/env-setup.ci-setup",
-                  "temp-prompts-organized/10-scaffold/ci-setup/monitoring-setup.ci-setup",
-                  "temp-prompts-organized/10-scaffold/ci-setup/secrets-manager-setup.ci-setup",
-                  "temp-prompts-organized/10-scaffold/ci-setup/slo-setup.ci-setup"
-                ]
-              },
-              {
-                "group": "Conventions",
-                "pages": [
-                  "temp-prompts-organized/10-scaffold/conventions/version-control-guide.conventions"
-                ]
-              },
-              {
-                "group": "Scaffold",
-                "pages": [
-                  "temp-prompts-organized/10-scaffold/scaffold/auth.scaffold",
-                  "temp-prompts-organized/10-scaffold/scaffold/db-bootstrap.scaffold",
-                  "temp-prompts-organized/10-scaffold/scaffold/fullstack.scaffold",
-                  "temp-prompts-organized/10-scaffold/scaffold/iac-bootstrap.scaffold"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "20 · Implementation",
-            "groups": [
-              {
-                "group": "Impl",
-                "pages": [
-                  "temp-prompts-organized/20-implementation/impl/commit.impl",
-                  "temp-prompts-organized/20-implementation/impl/content-generation.impl",
-                  "temp-prompts-organized/20-implementation/impl/feature-flags.impl",
-                  "temp-prompts-organized/20-implementation/impl/fix.impl",
-                  "temp-prompts-organized/20-implementation/impl/generate.impl",
-                  "temp-prompts-organized/20-implementation/impl/prototype-feature.impl",
-                  "temp-prompts-organized/20-implementation/impl/todos.impl",
-                  "temp-prompts-organized/20-implementation/impl/voice-input.impl"
-                ]
-              },
-              {
-                "group": "Review",
-                "pages": [
-                  "temp-prompts-organized/20-implementation/review/audit.review",
-                  "temp-prompts-organized/20-implementation/review/cross-check.review",
-                  "temp-prompts-organized/20-implementation/review/evidence-capture.review",
-                  "temp-prompts-organized/20-implementation/review/pr-desc.review",
-                  "temp-prompts-organized/20-implementation/review/review-branch.review",
-                  "temp-prompts-organized/20-implementation/review/review.review",
-                  "temp-prompts-organized/20-implementation/review/todo-report.review",
-                  "temp-prompts-organized/20-implementation/review/tsconfig-review.review"
-                ]
-              },
-              {
-                "group": "Spec-oriented",
-                "pages": [
-                  "temp-prompts-organized/20-implementation/spec-orient/blame-summary.spec-orient",
-                  "temp-prompts-organized/20-implementation/spec-orient/changed-files.spec-orient",
-                  "temp-prompts-organized/20-implementation/spec-orient/explain-code.spec-orient",
-                  "temp-prompts-organized/20-implementation/spec-orient/explain-symbol.spec-orient",
-                  "temp-prompts-organized/20-implementation/spec-orient/grep.spec-orient",
-                  "temp-prompts-organized/20-implementation/spec-orient/research-batch.spec-orient",
-                  "temp-prompts-organized/20-implementation/spec-orient/research-item.spec-orient"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "30 · Refactor",
-            "groups": [
-              {
-                "group": "Perf",
-                "pages": [
-                  "temp-prompts-organized/30-refactor/perf/compare-outputs.perf",
-                  "temp-prompts-organized/30-refactor/perf/model-evaluation.perf",
-                  "temp-prompts-organized/30-refactor/perf/model-strengths.perf"
-                ]
-              },
-              {
-                "group": "Refactor",
-                "pages": [
-                  "temp-prompts-organized/30-refactor/refactor/adr-new.refactor",
-                  "temp-prompts-organized/30-refactor/refactor/file-modularity.refactor",
-                  "temp-prompts-organized/30-refactor/refactor/prettier-adopt-migration-report.refactor",
-                  "temp-prompts-organized/30-refactor/refactor/refactor-file.refactor"
-                ]
-              },
-              {
-                "group": "Refactor candidates",
-                "pages": [
-                  "temp-prompts-organized/30-refactor/refactor-candidates/dead-code-scan.refactor-candidates",
-                  "temp-prompts-organized/30-refactor/refactor-candidates/migration-plan.refactor-candidates",
-                  "temp-prompts-organized/30-refactor/refactor-candidates/refactor-suggestions.refactor-candidates"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "40 · Testing",
-            "groups": [
-              {
-                "group": "Coverage",
-                "pages": [
-                  "temp-prompts-organized/40-testing/coverage/guide.coverage",
-                  "temp-prompts-organized/40-testing/coverage/regression-guard.coverage"
-                ]
-              },
-              {
-                "group": "Fix flakes",
-                "pages": [
-                  "temp-prompts-organized/40-testing/fix-flakes/error-analysis.fix-flakes",
-                  "temp-prompts-organized/40-testing/fix-flakes/explain-failures.fix-flakes"
-                ]
-              },
-              {
-                "group": "Gen tests",
-                "pages": [
-                  "temp-prompts-organized/40-testing/gen-tests/check.gen-tests",
-                  "temp-prompts-organized/40-testing/gen-tests/integration-test.gen-tests"
-                ]
-              },
-              {
-                "group": "Test plan",
-                "pages": [
-                  "temp-prompts-organized/40-testing/test-plan/e2e-runner-setup.test-plan",
-                  "temp-prompts-organized/40-testing/test-plan/query-set.test-plan",
-                  "temp-prompts-organized/40-testing/test-plan/secrets-scan.test-plan"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "50 · Docs",
-            "groups": [
-              {
-                "group": "API docs",
-                "pages": [
-                  "temp-prompts-organized/50-docs/api-docs/api-docs-local.api-docs",
-                  "temp-prompts-organized/50-docs/api-docs/openapi-generate.api-docs"
-                ]
-              },
-              {
-                "group": "Doc plan",
-                "pages": [
-                  "temp-prompts-organized/50-docs/doc-plan/gemini-map.doc-plan",
-                  "temp-prompts-organized/50-docs/doc-plan/owners.doc-plan"
-                ]
-              },
-              {
-                "group": "Examples",
-                "pages": [
-                  "temp-prompts-organized/50-docs/examples/api-usage.examples",
-                  "temp-prompts-organized/50-docs/examples/reference-implementation.examples"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "60 · Release",
-            "groups": [
-              {
-                "group": "Changelog",
-                "pages": [
-                  "temp-prompts-organized/60-release/changelog/from-commits.changelog",
-                  "temp-prompts-organized/60-release/changelog/project.changelog",
-                  "temp-prompts-organized/60-release/changelog/release-notes-prepare.changelog",
-                  "temp-prompts-organized/60-release/changelog/release-notes.changelog",
-                  "temp-prompts-organized/60-release/changelog/update.changelog",
-                  "temp-prompts-organized/60-release/changelog/verify.changelog"
-                ]
-              },
-              {
-                "group": "Post-release checks",
-                "pages": [
-                  "temp-prompts-organized/60-release/post-release-checks/cleanup-branches.post-release-checks",
-                  "temp-prompts-organized/60-release/post-release-checks/license-report.post-release-checks"
-                ]
-              },
-              {
-                "group": "Versioning",
-                "pages": [
-                  "temp-prompts-organized/60-release/versioning/version-proposal.versioning"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "_Shared",
+            "group": "Architecture",
             "pages": [
-              "temp-prompts-organized/_shared/rank-root-prompts.shared",
-              "temp-prompts-organized/_shared/reset-strategy.shared",
-              "temp-prompts-organized/_shared/roll-up.shared",
-              "temp-prompts-organized/_shared/summary.shared",
-              "temp-prompts-organized/_shared/switch-model.shared"
-            ],
-            "groups": [
-              {
-                "group": "TM",
-                "pages": [
-                  "temp-prompts-organized/_shared/tm/advance.tm",
-                  "temp-prompts-organized/_shared/tm/blockers.tm",
-                  "temp-prompts-organized/_shared/tm/ci.tm",
-                  "temp-prompts-organized/_shared/tm/delta.tm",
-                  "temp-prompts-organized/_shared/tm/docs.tm",
-                  "temp-prompts-organized/_shared/tm/next.tm",
-                  "temp-prompts-organized/_shared/tm/overview.tm",
-                  "temp-prompts-organized/_shared/tm/refine.tm"
-                ]
-              }
+              "temp-prompts-organized/00-ideation/architecture/adr-new.architecture",
+              "temp-prompts-organized/00-ideation/architecture/logging-strategy.architecture",
+              "temp-prompts-organized/00-ideation/architecture/modular-architecture.architecture",
+              "temp-prompts-organized/00-ideation/architecture/stack-evaluation.architecture"
             ]
           },
           {
-            "group": "_Templates",
+            "group": "Design",
             "pages": [
-              "temp-prompts-organized/_templates/instruction-file.templates",
-              "temp-prompts-organized/_templates/prompt-sequence-generator.templates",
-              "temp-prompts-organized/_templates/system-level-instruction-editor.templates"
+              "temp-prompts-organized/00-ideation/design/action-diagram.design",
+              "temp-prompts-organized/00-ideation/design/api-contract.design",
+              "temp-prompts-organized/00-ideation/design/design-assets.design",
+              "temp-prompts-organized/00-ideation/design/ui-screenshots.design"
             ]
           },
           {
-            "group": "Codefetch",
-            "pages": ["temp-prompts-organized/codebase"]
+            "group": "Requirements",
+            "pages": [
+              "temp-prompts-organized/00-ideation/requirements/plan-delta.requirements",
+              "temp-prompts-organized/00-ideation/requirements/planning-process.requirements",
+              "temp-prompts-organized/00-ideation/requirements/prd-generator.requirements",
+              "temp-prompts-organized/00-ideation/requirements/scope-control.requirements"
+            ]
           }
         ]
       },
+
       {
-        "group": "Temp Prompts (refactored)",
-        "pages": [
-          "temp-prompts-refactored/3-step-process-b4-refactoring",
-          "temp-prompts-refactored/Prompt-Optimizer",
-          "temp-prompts-refactored/action-diagram",
-          "temp-prompts-refactored/adr-new",
-          "temp-prompts-refactored/adr-new.refactor",
-          "temp-prompts-refactored/api-contract",
-          "temp-prompts-refactored/api-docs-local",
-          "temp-prompts-refactored/api-usage",
-          "temp-prompts-refactored/audit",
-          "temp-prompts-refactored/auth-scaffold",
-          "temp-prompts-refactored/blame-summary",
-          "temp-prompts-refactored/changed-files",
-          "temp-prompts-refactored/check",
-          "temp-prompts-refactored/cleanup-branches",
-          "temp-prompts-refactored/commit-msg",
-          "temp-prompts-refactored/commit",
-          "temp-prompts-refactored/compare-outputs",
-          "temp-prompts-refactored/content-generation",
-          "temp-prompts-refactored/coverage-guide",
-          "temp-prompts-refactored/cross-check",
-          "temp-prompts-refactored/db-bootstrap",
-          "temp-prompts-refactored/dead-code-scan",
-          "temp-prompts-refactored/design-assets",
-          "temp-prompts-refactored/devops-automation",
-          "temp-prompts-refactored/docs-fulfilled-100",
-          "temp-prompts-refactored/e2e-runner-setup",
-          "temp-prompts-refactored/env-setup",
-          "temp-prompts-refactored/error-analysis",
-          "temp-prompts-refactored/eslint-review",
-          "temp-prompts-refactored/evidence-capture",
-          "temp-prompts-refactored/explain-code",
-          "temp-prompts-refactored/explain-failures",
-          "temp-prompts-refactored/explain-symbol",
-          "temp-prompts-refactored/feature-flags",
-          "temp-prompts-refactored/file-modularity",
-          "temp-prompts-refactored/fix",
-          "temp-prompts-refactored/gemini-map",
-          "temp-prompts-refactored/generate-readme",
-          "temp-prompts-refactored/generate",
-          "temp-prompts-refactored/grep",
-          "temp-prompts-refactored/iac-bootstrap",
-          "temp-prompts-refactored/instruction-file",
-          "temp-prompts-refactored/integration-test",
-          "temp-prompts-refactored/logging-strategy",
-          "temp-prompts-refactored/migration-plan",
-          "temp-prompts-refactored/missing-docs",
-          "temp-prompts-refactored/model-evaluation",
-          "temp-prompts-refactored/model-strengths",
-          "temp-prompts-refactored/modular-architecture",
-          "temp-prompts-refactored/monitoring-setup",
-          "temp-prompts-refactored/openapi-generate",
-          "temp-prompts-refactored/owners",
-          "temp-prompts-refactored/plan-delta",
-          "temp-prompts-refactored/planning-process",
-          "temp-prompts-refactored/pr-desc",
-          "temp-prompts-refactored/prd-generator",
-          "temp-prompts-refactored/prettier-adopt_Migration_report",
-          "temp-prompts-refactored/problem-analyzer",
-          "temp-prompts-refactored/prototype-feature",
-          "temp-prompts-refactored/query-set",
-          "temp-prompts-refactored/rank-root-prompts",
-          "temp-prompts-refactored/refactor-file",
-          "temp-prompts-refactored/refactor-suggestions",
-          "temp-prompts-refactored/reference-implementation",
-          "temp-prompts-refactored/regression-guard",
-          "temp-prompts-refactored/release-notes-prepare",
-          "temp-prompts-refactored/release-notes",
-          "temp-prompts-refactored/research-batch",
-          "temp-prompts-refactored/research-item",
-          "temp-prompts-refactored/reset-strategy",
-          "temp-prompts-refactored/review-branch",
-          "temp-prompts-refactored/review",
-          "temp-prompts-refactored/roll-up",
-          "temp-prompts-refactored/scaffold-fullstack",
-          "temp-prompts-refactored/scope-control",
-          "temp-prompts-refactored/secrets-manager-setup",
-          "temp-prompts-refactored/secrets-scan",
-          "temp-prompts-refactored/slo-setup",
-          "temp-prompts-refactored/stack-evaluation",
-          "temp-prompts-refactored/stop-guessing",
-          "temp-prompts-refactored/summary-1",
-          "temp-prompts-refactored/summary-2",
-          "temp-prompts-refactored/summary",
-          "temp-prompts-refactored/switch-model",
-          "temp-prompts-refactored/system-level-instruction-editor",
-          "temp-prompts-refactored/tm-advance",
-          "temp-prompts-refactored/tm-blockers",
-          "temp-prompts-refactored/tm-ci",
-          "temp-prompts-refactored/tm-delta",
-          "temp-prompts-refactored/tm-docs",
-          "temp-prompts-refactored/tm-next",
-          "temp-prompts-refactored/tm-overview",
-          "temp-prompts-refactored/tm-refine",
-          "temp-prompts-refactored/todo-report",
-          "temp-prompts-refactored/todos",
-          "temp-prompts-refactored/tsconfig-review",
-          "temp-prompts-refactored/ui-screenshots",
-          "temp-prompts-refactored/update-changelog",
-          "temp-prompts-refactored/version-control-guide",
-          "temp-prompts-refactored/version-proposal",
-          "temp-prompts-refactored/voice-input"
+        "group": "10 · Scaffold",
+        "groups": [
+          {
+            "group": "CI Setup",
+            "pages": [
+              "temp-prompts-organized/10-scaffold/ci-setup/devops-automation.ci-setup",
+              "temp-prompts-organized/10-scaffold/ci-setup/env-setup.ci-setup",
+              "temp-prompts-organized/10-scaffold/ci-setup/monitoring-setup.ci-setup",
+              "temp-prompts-organized/10-scaffold/ci-setup/secrets-manager-setup.ci-setup",
+              "temp-prompts-organized/10-scaffold/ci-setup/slo-setup.ci-setup"
+            ]
+          },
+          {
+            "group": "Conventions",
+            "pages": [
+              "temp-prompts-organized/10-scaffold/conventions/version-control-guide.conventions"
+            ]
+          },
+          {
+            "group": "Scaffold",
+            "pages": [
+              "temp-prompts-organized/10-scaffold/scaffold/auth.scaffold",
+              "temp-prompts-organized/10-scaffold/scaffold/db-bootstrap.scaffold",
+              "temp-prompts-organized/10-scaffold/scaffold/fullstack.scaffold",
+              "temp-prompts-organized/10-scaffold/scaffold/iac-bootstrap.scaffold"
+            ]
+          }
         ]
-      }
+      },
+
+      {
+        "group": "20 · Implementation",
+        "groups": [
+          {
+            "group": "Impl",
+            "pages": [
+              "temp-prompts-organized/20-implementation/impl/commit.impl",
+              "temp-prompts-organized/20-implementation/impl/content-generation.impl",
+              "temp-prompts-organized/20-implementation/impl/feature-flags.impl",
+              "temp-prompts-organized/20-implementation/impl/fix.impl",
+              "temp-prompts-organized/20-implementation/impl/generate.impl",
+              "temp-prompts-organized/20-implementation/impl/prototype-feature.impl",
+              "temp-prompts-organized/20-implementation/impl/todos.impl",
+              "temp-prompts-organized/20-implementation/impl/voice-input.impl"
+            ]
+          },
+          {
+            "group": "Review",
+            "pages": [
+              "temp-prompts-organized/20-implementation/review/audit.review",
+              "temp-prompts-organized/20-implementation/review/cross-check.review",
+              "temp-prompts-organized/20-implementation/review/evidence-capture.review",
+              "temp-prompts-organized/20-implementation/review/pr-desc.review",
+              "temp-prompts-organized/20-implementation/review/review-branch.review",
+              "temp-prompts-organized/20-implementation/review/review.review",
+              "temp-prompts-organized/20-implementation/review/todo-report.review",
+              "temp-prompts-organized/20-implementation/review/tsconfig-review.review"
+            ]
+          },
+          {
+            "group": "Spec-oriented",
+            "pages": [
+              "temp-prompts-organized/20-implementation/spec-orient/blame-summary.spec-orient",
+              "temp-prompts-organized/20-implementation/spec-orient/changed-files.spec-orient",
+              "temp-prompts-organized/20-implementation/spec-orient/explain-code.spec-orient",
+              "temp-prompts-organized/20-implementation/spec-orient/explain-symbol.spec-orient",
+              "temp-prompts-organized/20-implementation/spec-orient/grep.spec-orient",
+              "temp-prompts-organized/20-implementation/spec-orient/research-batch.spec-orient",
+              "temp-prompts-organized/20-implementation/spec-orient/research-item.spec-orient"
+            ]
+          }
+        ]
+      },
+
+      {
+        "group": "30 · Refactor",
+        "groups": [
+          {
+            "group": "Perf",
+            "pages": [
+              "temp-prompts-organized/30-refactor/perf/compare-outputs.perf",
+              "temp-prompts-organized/30-refactor/perf/model-evaluation.perf",
+              "temp-prompts-organized/30-refactor/perf/model-strengths.perf"
+            ]
+          },
+          {
+            "group": "Refactor",
+            "pages": [
+              "temp-prompts-organized/30-refactor/refactor/adr-new.refactor",
+              "temp-prompts-organized/30-refactor/refactor/file-modularity.refactor",
+              "temp-prompts-organized/30-refactor/refactor/prettier-adopt-migration-report.refactor",
+              "temp-prompts-organized/30-refactor/refactor/refactor-file.refactor"
+            ]
+          },
+          {
+            "group": "Refactor candidates",
+            "pages": [
+              "temp-prompts-organized/30-refactor/refactor-candidates/dead-code-scan.refactor-candidates",
+              "temp-prompts-organized/30-refactor/refactor-candidates/migration-plan.refactor-candidates",
+              "temp-prompts-organized/30-refactor/refactor-candidates/refactor-suggestions.refactor-candidates"
+            ]
+          }
+        ]
+      },
+
+      {
+        "group": "40 · Testing",
+        "groups": [
+          {
+            "group": "Coverage",
+            "pages": [
+              "temp-prompts-organized/40-testing/coverage/guide.coverage",
+              "temp-prompts-organized/40-testing/coverage/regression-guard.coverage"
+            ]
+          },
+          {
+            "group": "Fix Flakes",
+            "pages": [
+              "temp-prompts-organized/40-testing/fix-flakes/error-analysis.fix-flakes",
+              "temp-prompts-organized/40-testing/fix-flakes/explain-failures.fix-flakes"
+            ]
+          },
+          {
+            "group": "Gen Tests",
+            "pages": [
+              "temp-prompts-organized/40-testing/gen-tests/check.gen-tests",
+              "temp-prompts-organized/40-testing/gen-tests/integration-test.gen-tests"
+            ]
+          },
+          {
+            "group": "Test Plan",
+            "pages": [
+              "temp-prompts-organized/40-testing/test-plan/e2e-runner-setup.test-plan",
+              "temp-prompts-organized/40-testing/test-plan/query-set.test-plan",
+              "temp-prompts-organized/40-testing/test-plan/secrets-scan.test-plan"
+            ]
+          }
+        ]
+      },
+
+      {
+        "group": "50 · Docs",
+        "groups": [
+          {
+            "group": "API Docs",
+            "pages": [
+              "temp-prompts-organized/50-docs/api-docs/api-docs-local.api-docs",
+              "temp-prompts-organized/50-docs/api-docs/openapi-generate.api-docs"
+            ]
+          },
+          {
+            "group": "Examples",
+            "pages": [
+              "temp-prompts-organized/50-docs/examples/api-usage.examples",
+              "temp-prompts-organized/50-docs/examples/reference-implementation.examples"
+            ]
+          }
+        ]
+      },
+
+      {
+        "group": "60 · Release",
+        "groups": [
+          {
+            "group": "Changelog",
+            "pages": [
+              "temp-prompts-organized/60-release/changelog/from-commits.changelog",
+              "temp-prompts-organized/60-release/changelog/project.changelog",
+              "temp-prompts-organized/60-release/changelog/release-notes-prepare.changelog",
+              "temp-prompts-organized/60-release/changelog/release-notes.changelog",
+              "temp-prompts-organized/60-release/changelog/update.changelog",
+              "temp-prompts-organized/60-release/changelog/verify.changelog"
+            ]
+          },
+          {
+            "group": "Post-release checks",
+            "pages": [
+              "temp-prompts-organized/60-release/post-release-checks/cleanup-branches.post-release-checks",
+              "temp-prompts-organized/60-release/post-release-checks/license-report.post-release-checks"
+            ]
+          },
+          {
+            "group": "Versioning",
+            "pages": [
+              "temp-prompts-organized/60-release/versioning/version-proposal.versioning"
+            ]
+          }
+        ]
+      },
+
+      {
+        "group": "_Shared",
+        "pages": [
+          "temp-prompts-organized/_shared/rank-root-prompts.shared",
+          "temp-prompts-organized/_shared/reset-strategy.shared",
+          "temp-prompts-organized/_shared/roll-up.shared",
+          "temp-prompts-organized/_shared/summary.shared",
+          "temp-prompts-organized/_shared/switch-model.shared"
+        ],
+        "groups": [
+          {
+            "group": "TM",
+            "pages": [
+              "temp-prompts-organized/_shared/tm/advance.tm",
+              "temp-prompts-organized/_shared/tm/blockers.tm",
+              "temp-prompts-organized/_shared/tm/ci.tm",
+              "temp-prompts-organized/_shared/tm/delta.tm",
+              "temp-prompts-organized/_shared/tm/docs.tm",
+              "temp-prompts-organized/_shared/tm/next.tm",
+              "temp-prompts-organized/_shared/tm/overview.tm",
+              "temp-prompts-organized/_shared/tm/refine.tm"
+            ]
+          }
+        ]
+      },
+
+      {
+        "group": "Templates",
+        "pages": [
+          "temp-prompts-organized/_templates/instruction-file.templates",
+          "temp-prompts-organized/_templates/prompt-sequence-generator.templates",
+          "temp-prompts-organized/_templates/system-level-instruction-editor.templates"
+        ]
+      },
+
+      { "group": "Codefetch", "pages": ["codefetch/codebase"] }
     ]
   }
 }
