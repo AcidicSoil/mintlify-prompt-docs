@@ -1,0 +1,139 @@
+ ---
+ title: Prompt Docs
+ description: A structured playbook for ideation → scaffold → implementation → refactor → testing → docs → release.
+ ---
+
+ Use the sidebar to explore, or jump straight into a workflow below.
+
+ [Get Started](#quick-start) · [Browse Sections](#whats-inside) · [Contribute](#contributing)
+
+ ---
+
+ ## Quick start
+
+ <Callout type="tip" title="First time here?">
+   <ul>
+     <li>Skim the <strong>3 lanes</strong> below (Plan / Build / Ship).</li>
+     <li>Use the <strong>search</strong> in the top-right.</li>
+     <li>Every page is Markdown—click <strong>Edit this page</strong> to propose improvements.</li>
+   </ul>
+ </Callout>
+
+ <Tabs>
+   <Tab title="Plan">
+     <ul>
+       <li>Write a quick PRD → <a href="temp-prompts-organized/00-ideation/requirements/prd-generator.requirements.md">PRD generator</a></li>
+       <li>Pick an architecture approach → <a href="temp-prompts-organized/00-ideation/architecture/adr-new.architecture.md">ADR – new</a> • <a href="temp-prompts-organized/00-ideation/architecture/modular-architecture.architecture.md">Modular architecture</a></li>
+       <li>Define logging &amp; SLOs → <a href="temp-prompts-organized/00-ideation/architecture/logging-strategy.architecture.md">Logging strategy</a> • <a href="temp-prompts-organized/10-scaffold/ci-setup/slo-setup.ci-setup.md">SLO setup</a></li>
+     </ul>
+   </Tab>
+
+   <Tab title="Build">
+     <ul>
+       <li>Bootstrap env &amp; CI → <a href="temp-prompts-organized/10-scaffold/ci-setup/env-setup.ci-setup.md">Env setup</a> • <a href="temp-prompts-organized/10-scaffold/ci-setup/devops-automation.ci-setup.md">DevOps automation</a></li>
+       <li>Start coding prompts → <a href="temp-prompts-organized/20-implementation/impl/generate.impl.md">Generate</a> • <a href="temp-prompts-organized/20-implementation/impl/feature-flags.impl.md">Feature flags</a></li>
+       <li>Review &amp; tighten → <a href="temp-prompts-organized/20-implementation/review/pr-desc.review.md">PR description</a> • <a href="temp-prompts-organized/20-implementation/review/audit.review.md">Audit</a></li>
+     </ul>
+   </Tab>
+
+   <Tab title="Ship">
+     <ul>
+       <li>Test coverage → <a href="temp-prompts-organized/40-testing/coverage/guide.coverage.md">Coverage guide</a></li>
+       <li>Prepare release notes → <a href="temp-prompts-organized/60-release/changelog/release-notes-prepare.changelog.md">Release notes (prepare)</a></li>
+       <li>Versioning → <a href="temp-prompts-organized/60-release/versioning/version-proposal.versioning.md">Version proposal</a></li>
+     </ul>
+   </Tab>
+ </Tabs>
+
+ ---
+
+ ## What’s inside
+
+ - **Temp Prompts (organized)** — curated, step-by-step:
+   - **00 · Ideation** → <a href="temp-prompts-organized/00-ideation/architecture/adr-new.architecture.md">Architecture</a>, <a href="temp-prompts-organized/00-ideation/design/api-contract.design.md">Design</a>, <a href="temp-prompts-organized/00-ideation/requirements/prd-generator.requirements.md">Requirements</a>
+   - **10 · Scaffold** → <a href="temp-prompts-organized/10-scaffold/ci-setup/devops-automation.ci-setup.md">CI setup</a>, <a href="temp-prompts-organized/10-scaffold/conventions/version-control-guide.conventions.md">Conventions</a>, <a href="temp-prompts-organized/10-scaffold/scaffold/fullstack.scaffold.md">Scaffold</a>
+   - **20 · Implementation** → <a href="temp-prompts-organized/20-implementation/impl/commit.impl.md">Impl</a>, <a href="temp-prompts-organized/20-implementation/review/review.review.md">Review</a>, <a href="temp-prompts-organized/20-implementation/spec-orient/explain-code.spec-orient.md">Spec-oriented</a>
+   - **30 · Refactor** → <a href="temp-prompts-organized/30-refactor/refactor/refactor-file.refactor.md">Refactor file</a>, <a href="temp-prompts-organized/30-refactor/perf/model-evaluation.perf.md">Perf eval</a>
+   - **40 · Testing** → <a href="temp-prompts-organized/40-testing/gen-tests/integration-test.gen-tests.md">Integration test</a>, <a href="temp-prompts-organized/40-testing/fix-flakes/explain-failures.fix-flakes.md">Flake fixes</a>
+   - **50 · Docs** → <a href="temp-prompts-organized/50-docs/api-docs/api-docs-local.api-docs.md">API docs (local)</a>
+   - **60 · Release** → <a href="temp-prompts-organized/60-release/changelog/from-commits.changelog.md">Changelog from commits</a>, <a href="temp-prompts-organized/60-release/post-release-checks/license-report.post-release-checks.md">Post-release checks</a>
+
+ - **Temp Prompts (refactored)** — same ideas, reworked as single-file flows:
+   - Jump in: <a href="temp-prompts-refactored/action-diagram.md">Action diagram</a>, <a href="temp-prompts-refactored/Prompt-Optimizer.md">Prompt Optimizer</a>, <a href="temp-prompts-refactored/scaffold-fullstack.md">Scaffold (full-stack)</a>
+   - Docs helpers: <a href="temp-prompts-refactored/generate-readme.md">Generate README</a>, <a href="temp-prompts-refactored/docs-fulfilled-100.md">Docs 100%</a>
+
+ - **Shared &amp; Templates**
+   - <code>_Shared</code> → <a href="temp-prompts-organized/_shared/tm/overview.tm.md">TM overview</a>, <a href="temp-prompts-organized/_shared/reset-strategy.shared.md">Reset strategy</a>
+   - <code>_Templates</code> → <a href="temp-prompts-organized/_templates/instruction-file.templates.md">Instruction file</a>, <a href="temp-prompts-organized/_templates/prompt-sequence-generator.templates.md">Prompt sequence generator</a>
+
+ ---
+
+ ## Common tasks
+
+ <details>
+   <summary><strong>Plan a change (ADR + PRD checklist)</strong></summary>
+
+   1. Start an ADR → <a href="temp-prompts-organized/00-ideation/architecture/adr-new.architecture.md">ADR – new</a><br/>
+   2. Draft PRD → <a href="temp-prompts-organized/00-ideation/requirements/prd-generator.requirements.md">PRD generator</a><br/>
+   3. Stakeholder review → <a href="temp-prompts-organized/00-ideation/requirements/planning-process.requirements.md">Planning process</a>
+ </details>
+
+ <details>
+   <summary><strong>Spin up a project scaffold</strong></summary>
+
+   <ul>
+     <li>CI &amp; secrets → <a href="temp-prompts-organized/10-scaffold/ci-setup/secrets-manager-setup.ci-setup.md">Secrets manager</a></li>
+     <li>Monitoring &amp; SLOs → <a href="temp-prompts-organized/10-scaffold/ci-setup/monitoring-setup.ci-setup.md">Monitoring setup</a> • <a href="temp-prompts-organized/10-scaffold/ci-setup/slo-setup.ci-setup.md">SLO setup</a></li>
+   </ul>
+ </details>
+
+ <details>
+   <summary><strong>Run a crisp PR review</strong></summary>
+
+   <p>Use the trio:</p>
+   <ul>
+     <li><a href="temp-prompts-organized/20-implementation/review/pr-desc.review.md">PR description helper</a></li>
+     <li><a href="temp-prompts-organized/20-implementation/review/cross-check.review.md">Cross-check</a></li>
+     <li><a href="temp-prompts-organized/20-implementation/review/evidence-capture.review.md">Evidence capture</a></li>
+   </ul>
+ </details>
+
+ ---
+
+ ## Search like a pro
+
+ - Use <strong>filters</strong> in the search box (e.g. <code>flag lang:impl</code>), or just keywords like <em>“release notes prepare”</em>.
+ - Prefer <strong>relative links</strong> when you add content (keeps GitHub Pages happy under <code>/prompt-docs/</code>).
+ - Add a short <strong>front-matter description</strong> on new pages to improve search snippets.
+
+ <Callout type="info" title="Helpful deep links">
+   <ul>
+     <li>Spec-oriented helpers: <a href="temp-prompts-organized/20-implementation/spec-orient/explain-code.spec-orient.md">Explain code</a> • <a href="temp-prompts-organized/20-implementation/spec-orient/changed-files.spec-orient.md">Changed files</a> • <a href="temp-prompts-organized/20-implementation/spec-orient/grep.spec-orient.md">Grep</a></li>
+     <li>Testing: <a href="temp-prompts-organized/40-testing/gen-tests/integration-test.gen-tests.md">Integration test</a> • <a href="temp-prompts-organized/40-testing/coverage/regression-guard.coverage.md">Regression guard</a></li>
+   </ul>
+ </Callout>
+
+ ---
+
+ ## Contributing
+
+ 1. Create a branch, add or edit Markdown under the appropriate section.
+ 2. Keep file names consistent with the existing pattern (e.g., <code>*.impl.md</code>, <code>*.review.md</code>).
+ 3. Submit a PR—use the <a href="temp-prompts-organized/20-implementation/review/pr-desc.review.md">PR description helper</a>.
+ 4. After merge, the site auto-deploys (using <code>mkdocs build</code> + Pages).
+
+ <a href="https://github.com/AcidicSoil/prompt-docs/issues/new">Open a new issue</a> &nbsp; <a href="https://github.com/AcidicSoil/prompt-docs/pulls">Propose a change</a>
+
+ ---
+
+ ## Release &amp; versioning
+
+ - Draft notes → <a href="temp-prompts-organized/60-release/changelog/release-notes-prepare.changelog.md">Release notes (prepare)</a>
+ - Generate from commits → <a href="temp-prompts-organized/60-release/changelog/from-commits.changelog.md">Changelog from commits</a>
+ - Sanity pass → <a href="temp-prompts-organized/60-release/changelog/verify.changelog.md">Verify</a>
+
+ ---
+
+ ### Credits
+
+ Built with <a href="https://squidfunk.github.io/mkdocs-material/">MkDocs Material</a> and maintained in the <strong>prompt-docs</strong> repo.

@@ -1,0 +1,290 @@
+
+ {
+   "$schema": "https://mintlify.com/docs.json",
+   "name": "Prompt Docs",
+   "theme": "mint",
+   "colors": { "primary": "#22c55e" },
+   "navigation": {
+     "groups": [
+       {
+         "group": "Home",
+         "pages": ["index"]
+       },
+
+       {
+         "group": "00 · Ideation",
+         "groups": [
+           {
+             "group": "Architecture",
+             "pages": [
+               "prompt-front-matter/00-ideation__architecture__adr-new.architecture.refactor",
+               "prompt-front-matter/00-ideation__architecture__logging-strategy.architecture.refactor",
+               "prompt-front-matter/00-ideation__architecture__modular-architecture.architecture.refactor",
+               "prompt-front-matter/00-ideation__architecture__stack-evaluation.architecture.refactor"
+             ]
+           },
+           {
+             "group": "Design",
+             "pages": [
+               "prompt-front-matter/00-ideation__design__action-diagram.design.refactor",
+               "prompt-front-matter/00-ideation__design__api-contract.design.refactor",
+               "prompt-front-matter/00-ideation__design__design-assets.design.refactor",
+               "prompt-front-matter/00-ideation__design__ui-screenshots.design.refactor"
+             ]
+           },
+           {
+             "group": "Requirements",
+             "pages": [
+               "prompt-front-matter/00-ideation__requirements__plan-delta.requirements.refactor",
+               "prompt-front-matter/00-ideation__requirements__planning-process.requirements.refactor",
+               "prompt-front-matter/00-ideation__requirements__prd-generator.requirements.refactor",
+               "prompt-front-matter/00-ideation__requirements__scope-control.requirements.refactor"
+             ]
+           }
+         ]
+       },
+
+       {
+         "group": "10 · Scaffold",
+         "groups": [
+           {
+             "group": "CI Setup",
+             "pages": [
+               "prompt-front-matter/10-scaffold__ci-setup__devops-automation.ci-setup.refactor",
+               "prompt-front-matter/10-scaffold__ci-setup__env-setup.ci-setup.refactor",
+               "prompt-front-matter/10-scaffold__ci-setup__monitoring-setup.ci-setup.refactor",
+               "prompt-front-matter/10-scaffold__ci-setup__secrets-manager-setup.ci-setup.refactor",
+               "prompt-front-matter/10-scaffold__ci-setup__slo-setup.ci-setup.refactor"
+             ]
+           },
+           {
+             "group": "Conventions",
+             "pages": [
+               "prompt-front-matter/10-scaffold__conventions__version-control-guide.conventions.refactor"
+             ]
+           },
+           {
+             "group": "Scaffold",
+             "pages": [
+               "prompt-front-matter/10-scaffold__scaffold__auth.scaffold.refactor",
+               "prompt-front-matter/10-scaffold__scaffold__db-bootstrap.scaffold.refactor",
+               "prompt-front-matter/10-scaffold__scaffold__fullstack.scaffold.refactor",
+               "prompt-front-matter/10-scaffold__scaffold__iac-bootstrap.scaffold.refactor"
+             ]
+           }
+         ]
+       },
+
+       {
+         "group": "20 · Implementation",
+         "groups": [
+           {
+             "group": "Impl",
+             "pages": [
+               "prompt-front-matter/20-implementation__impl__commit.impl.refactor",
+               "prompt-front-matter/20-implementation__impl__content-generation.impl.refactor",
+               "prompt-front-matter/20-implementation__impl__feature-flags.impl.refactor",
+               "prompt-front-matter/20-implementation__impl__fix.impl.refactor",
+               "prompt-front-matter/20-implementation__impl__generate.impl.refactor",
+               "prompt-front-matter/20-implementation__impl__prototype-feature.impl.refactor",
+               "prompt-front-matter/20-implementation__impl__todos.impl.refactor",
+               "prompt-front-matter/20-implementation__impl__voice-input.impl.refactor"
+             ]
+           },
+           {
+             "group": "Review",
+             "pages": [
+               "prompt-front-matter/20-implementation__review__audit.review.refactor",
+               "prompt-front-matter/20-implementation__review__cross-check.review.refactor",
+               "prompt-front-matter/20-implementation__review__evidence-capture.review.refactor",
+               "prompt-front-matter/20-implementation__review__pr-desc.review.refactor",
+               "prompt-front-matter/20-implementation__review__review-branch.review.refactor",
+               "prompt-front-matter/20-implementation__review__review.review.refactor",
+               "prompt-front-matter/20-implementation__review__todo-report.review.refactor",
+               "prompt-front-matter/20-implementation__review__tsconfig-review.review.refactor"
+             ]
+           },
+           {
+             "group": "Spec-oriented",
+             "pages": [
+               "prompt-front-matter/20-implementation__spec-orient__blame-summary.spec-orient.refactor",
+               "prompt-front-matter/20-implementation__spec-orient__changed-files.spec-orient.refactor",
+               "prompt-front-matter/20-implementation__spec-orient__explain-code.spec-orient.refactor",
+               "prompt-front-matter/20-implementation__spec-orient__explain-symbol.spec-orient.refactor",
+               "prompt-front-matter/20-implementation__spec-orient__grep.spec-orient.refactor",
+               "prompt-front-matter/20-implementation__spec-orient__research-batch.spec-orient.refactor",
+               "prompt-front-matter/20-implementation__spec-orient__research-item.spec-orient.refactor"
+             ]
+           }
+         ]
+       },
+
+       {
+         "group": "30 · Refactor",
+         "groups": [
+           {
+             "group": "Perf",
+             "pages": [
+               "30-refactor/perf/compare-outputs.perf",
+               "30-refactor/perf/model-evaluation.perf",
+               "30-refactor/perf/model-strengths.perf"
+             ]
+           },
+           {
+             "group": "Refactor",
+             "pages": [
+               "prompt-front-matter/30-refactor__refactor__adr-new.refactor.refactor",
+               "prompt-front-matter/30-refactor__refactor__file-modularity.refactor.refactor",
+               "prompt-front-matter/30-refactor__refactor__prettier-adopt-migration-report.refactor.refactor",
+               "prompt-front-matter/30-refactor__refactor__refactor-file.refactor.refactor"
+             ]
+           },
+           {
+             "group": "Refactor Candidates",
+             "pages": [
+               "prompt-front-matter/30-refactor__refactor-candidates__dead-code-scan.refactor-candidates.refactor",
+               "prompt-front-matter/30-refactor__refactor-candidates__migration-plan.refactor-candidates.refactor",
+               "prompt-front-matter/30-refactor__refactor-candidates__refactor-suggestions.refactor-candidates.refactor"
+             ]
+           }
+         ]
+       },
+
+       {
+         "group": "40 · Testing",
+         "groups": [
+           {
+             "group": "Coverage",
+             "pages": [
+               "prompt-front-matter/40-testing__coverage__guide.coverage.refactor",
+               "prompt-front-matter/40-testing__coverage__regression-guard.coverage.refactor"
+             ]
+           },
+           {
+             "group": "Fix Flakes",
+             "pages": [
+               "prompt-front-matter/40-testing__fix-flakes__error-analysis.fix-flakes.refactor",
+               "prompt-front-matter/40-testing__fix-flakes__explain-failures.fix-flakes.refactor"
+             ]
+           },
+           {
+             "group": "Gen Tests",
+             "pages": [
+               "prompt-front-matter/40-testing__gen-tests__check.gen-tests.refactor",
+               "prompt-front-matter/40-testing__gen-tests__integration-test.gen-tests.refactor"
+             ]
+           },
+           {
+             "group": "Test Plan",
+             "pages": [
+               "prompt-front-matter/40-testing__test-plan__e2e-runner-setup.test-plan.refactor",
+               "prompt-front-matter/40-testing__test-plan__query-set.test-plan.refactor",
+               "prompt-front-matter/40-testing__test-plan__secrets-scan.test-plan.refactor"
+             ]
+           }
+         ]
+       },
+
+       {
+         "group": "50 · Docs",
+         "groups": [
+           {
+             "group": "API Docs",
+             "pages": [
+               "prompt-front-matter/50-docs__api-docs__api-docs-local.api-docs.refactor",
+               "prompt-front-matter/50-docs__api-docs__openapi-generate.api-docs.refactor"
+             ]
+           },
+           {
+             "group": "Doc Plan",
+             "pages": [
+               "prompt-front-matter/50-docs__doc-plan__gemini-map.doc-plan.refactor",
+               "prompt-front-matter/50-docs__doc-plan__owners.doc-plan.refactor"
+             ]
+           },
+           {
+             "group": "Examples",
+             "pages": [
+               "prompt-front-matter/50-docs__examples__api-usage.examples.refactor",
+               "prompt-front-matter/50-docs__examples__reference-implementation.examples.refactor"
+             ]
+           }
+         ],
+         "pages": [
+           "prompt-front-matter/50-docs__project-contributing.docs.refactor",
+           "prompt-front-matter/50-docs__project-readme.docs.refactor"
+         ]
+       },
+
+       {
+         "group": "60 · Release",
+         "groups": [
+           {
+             "group": "Changelog",
+             "pages": [
+               "prompt-front-matter/60-release__changelog__from-commits.changelog.refactor",
+               "prompt-front-matter/60-release__changelog__project.changelog.refactor",
+               "prompt-front-matter/60-release__changelog__release-notes-prepare.changelog.refactor",
+               "prompt-front-matter/60-release__changelog__release-notes.changelog.refactor",
+               "prompt-front-matter/60-release__changelog__update.changelog.refactor",
+               "prompt-front-matter/60-release__changelog__verify.changelog.refactor"
+             ]
+           },
+           {
+             "group": "Post-release checks",
+             "pages": [
+               "prompt-front-matter/60-release__post-release-checks__cleanup-branches.post-release-checks.refactor",
+               "prompt-front-matter/60-release__post-release-checks__license-report.post-release-checks.refactor"
+             ]
+           },
+           {
+             "group": "Versioning",
+             "pages": [
+               "prompt-front-matter/60-release__versioning__version-proposal.versioning.refactor"
+             ]
+           }
+         ]
+       },
+
+       {
+         "group": "Shared",
+         "pages": [
+           "_shared/rank-root-prompts.shared",
+           "_shared/reset-strategy.shared",
+           "_shared/roll-up.shared",
+           "_shared/summary.shared",
+           "_shared/switch-model.shared"
+         ],
+         "groups": [
+           {
+             "group": "TM",
+             "pages": [
+               "prompt-front-matter/_shared__tm__advance.tm.refactor",
+               "prompt-front-matter/_shared__tm__blockers.tm.refactor",
+               "prompt-front-matter/_shared__tm__ci.tm.refactor",
+               "prompt-front-matter/_shared__tm__delta.tm.refactor",
+               "prompt-front-matter/_shared__tm__docs.tm.refactor",
+               "prompt-front-matter/_shared__tm__next.tm.refactor",
+               "prompt-front-matter/_shared__tm__overview.tm.refactor",
+               "prompt-front-matter/_shared__tm__refine.tm.refactor"
+             ]
+           }
+         ]
+       },
+
+       {
+         "group": "Templates",
+         "pages": [
+           "_templates/instruction-file.templates",
+           "_templates/prompt-sequence-generator.templates",
+           "_templates/system-level-instruction-editor.templates"
+         ]
+       },
+
+       {
+         "group": "Codefetch",
+         "pages": ["codefetch/codebase"]
+       }
+     ]
+   }
+ }
